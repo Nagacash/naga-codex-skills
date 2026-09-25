@@ -1,5 +1,7 @@
 # Naga Codex Engineering Workflow Skills
 
+![Naga Codex Skills](./assets/hero-banner.jpg)
+
 A set of [Agent Skills](https://agentskills.io) that take a change from a vague idea to
 shipped, verified, documented code, for any AI coding agent. One skill per phase.
 Run only the ones a change needs.
@@ -14,6 +16,8 @@ idea → /scope → /audit → /architect → /develop → /check verify → /te
 ```
 
 Run `/debug` anytime something breaks. Run bare `/scope` anytime to see where things stand.
+
+![Nine-phase workflow](./assets/workflow-pipeline.jpg)
 
 ## The skills
 
@@ -31,11 +35,7 @@ Run `/debug` anytime something breaks. Run bare `/scope` anytime to see where th
 
 ## Install
 
-> **Repository status:** public install works only after
-> `https://github.com/Nagacash/naga-codex-skills` is published.
-> Until then, install from this local path.
-
-### Placeholder (after publish)
+Public repository: [Nagacash/naga-codex-skills](https://github.com/Nagacash/naga-codex-skills)
 
 ```bash
 # All skills (Agent Skills compatible clients)
@@ -43,16 +43,17 @@ npx skills@latest add Nagacash/naga-codex-skills
 
 # One skill
 npx skills@latest add Nagacash/naga-codex-skills --skill scope
+
+# Claude Code
+npx skills@latest add Nagacash/naga-codex-skills -a claude-code
 ```
 
-### Local path (available now)
+Verified clients: Cursor, OpenAI Codex (`.agents/skills`), OpenCode, Claude Code,
+and other [Agent Skills](https://agentskills.io/clients) clients.
 
-```bash
-npx skills@latest add /Volumes/MPC_CODE/coding/nagacodex/projects/naga-codex-skills
-```
-
-Verified clients: Cursor, OpenAI Codex (`.agents/skills`), OpenCode, Claude Code
-(`-a claude-code`), and other [Agent Skills](https://agentskills.io/clients) clients.
+<p align="center">
+  <img src="./assets/emblem.jpg" alt="Naga Codex Skills emblem" width="220" />
+</p>
 
 ## Where to start
 
