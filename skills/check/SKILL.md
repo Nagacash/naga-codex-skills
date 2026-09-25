@@ -5,11 +5,10 @@ argument-hint: [verify | review]
 description: "Confirm a change before merge. `/check verify` drives the real app to prove behavior against the spec (every acceptance criterion met, every surface built). `/check review` runs a senior code review on a fresh model, one that did not write the code. Verify after /develop, review before a PR. Writes to docs/reviews/, never edits code."
 ---
 
-## Naga Codex adaptation note
+## Naga Codex note
 
-This skill is part of the **Naga Codex Engineering Workflow**, adapted from the
-[JSMastery Engineering Workflow](https://github.com/jsmastery-pro/skills) (MIT).
-See repository root `ATTRIBUTION.md` and `LICENSE`. Prefer small reviewable changes,
+This skill is part of the **Naga Codex Engineering Workflow** (MIT).
+See repository root `LICENSE`. Prefer small reviewable changes,
 persistent file based context, verification after implementation, and human approval
 for consequential actions (push, deploy, secrets, production).
 

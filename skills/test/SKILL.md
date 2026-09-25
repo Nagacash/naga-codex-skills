@@ -4,11 +4,10 @@ allowed-tools: Bash, Read, Grep, Glob, Write, Edit, Agent, AskUserQuestion
 description: "Run /test to write a test suite for code you just built or changed, after implementing a feature, route, or fix. Targets uncommitted changes automatically, reads test preferences.json for your framework (asks and saves it if absent), and picks the right strategy per file: happy path, edge cases, error states, accessibility."
 ---
 
-## Naga Codex adaptation note
+## Naga Codex note
 
-This skill is part of the **Naga Codex Engineering Workflow**, adapted from the
-[JSMastery Engineering Workflow](https://github.com/jsmastery-pro/skills) (MIT).
-See repository root `ATTRIBUTION.md` and `LICENSE`. Prefer small reviewable changes,
+This skill is part of the **Naga Codex Engineering Workflow** (MIT).
+See repository root `LICENSE`. Prefer small reviewable changes,
 persistent file based context, verification after implementation, and human approval
 for consequential actions (push, deploy, secrets, production).
 

@@ -4,11 +4,10 @@ allowed-tools: Bash, Read, Grep, Glob, Write, Edit, Agent
 description: "Run /debug to find and fix a bug's root cause: a test failing for an unclear reason, /check verify finding a failure, or behavior being wrong. Runs a reproduce, localize, hypothesize, test, fix, verify loop, makes the minimal fix, and hands a regression test to /test. No features, no extra refactors."
 ---
 
-## Naga Codex adaptation note
+## Naga Codex note
 
-This skill is part of the **Naga Codex Engineering Workflow**, adapted from the
-[JSMastery Engineering Workflow](https://github.com/jsmastery-pro/skills) (MIT).
-See repository root `ATTRIBUTION.md` and `LICENSE`. Prefer small reviewable changes,
+This skill is part of the **Naga Codex Engineering Workflow** (MIT).
+See repository root `LICENSE`. Prefer small reviewable changes,
 persistent file based context, verification after implementation, and human approval
 for consequential actions (push, deploy, secrets, production).
 

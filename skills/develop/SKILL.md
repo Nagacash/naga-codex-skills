@@ -4,11 +4,10 @@ allowed-tools: Bash, Read, Grep, Glob, Write, Edit, Agent, AskUserQuestion
 description: "Run /develop to build a feature, UI or backend, from an approved design, a page, component, API, service, or data slice. If something load bearing is undecided and no spec records it, it stops and routes you to /architect; otherwise it reads the spec plus AGENTS.md, builds, and advances the scope."
 ---
 
-## Naga Codex adaptation note
+## Naga Codex note
 
-This skill is part of the **Naga Codex Engineering Workflow**, adapted from the
-[JSMastery Engineering Workflow](https://github.com/jsmastery-pro/skills) (MIT).
-See repository root `ATTRIBUTION.md` and `LICENSE`. Prefer small reviewable changes,
+This skill is part of the **Naga Codex Engineering Workflow** (MIT).
+See repository root `LICENSE`. Prefer small reviewable changes,
 persistent file based context, verification after implementation, and human approval
 for consequential actions (push, deploy, secrets, production).
 

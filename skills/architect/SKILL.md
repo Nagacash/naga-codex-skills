@@ -4,11 +4,10 @@ allowed-tools: Bash, Read, Grep, Glob, Write, Edit, Agent, AskUserQuestion
 description: "Run /architect when choosing between approaches, designing a feature or page, picking a tech stack, or when /develop says a decision is owed, anytime a load bearing technical decision is unmade. Asks deep questions, recommends an answer, and writes a build spec to docs/specs/. Owns all spec files."
 ---
 
-## Naga Codex adaptation note
+## Naga Codex note
 
-This skill is part of the **Naga Codex Engineering Workflow**, adapted from the
-[JSMastery Engineering Workflow](https://github.com/jsmastery-pro/skills) (MIT).
-See repository root `ATTRIBUTION.md` and `LICENSE`. Prefer small reviewable changes,
+This skill is part of the **Naga Codex Engineering Workflow** (MIT).
+See repository root `LICENSE`. Prefer small reviewable changes,
 persistent file based context, verification after implementation, and human approval
 for consequential actions (push, deploy, secrets, production).
 

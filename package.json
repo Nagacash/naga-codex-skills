@@ -1,7 +1,7 @@
 {
   "name": "@nagacodex/skills",
   "version": "0.1.0",
-  "description": "Naga Codex Engineering Workflow: Agent Skills that take a change from idea to verified, documented code. Adapted from the JSMastery Engineering Workflow (MIT).",
+  "description": "Naga Codex Engineering Workflow: Agent Skills that take a change from idea to verified, documented code.",
   "keywords": [
     "claude-code",
     "cursor",

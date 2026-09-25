@@ -6,8 +6,7 @@ A set of [Agent Skills](https://agentskills.io) that take a change from a vague 
 shipped, verified, documented code, for any AI coding agent. One skill per phase.
 Run only the ones a change needs.
 
-**Adapted from** the [JSMastery Engineering Workflow](https://github.com/jsmastery-pro/skills)
-(MIT). Not affiliated with JavaScript Mastery. See [ATTRIBUTION.md](./ATTRIBUTION.md).
+MIT licensed. See [LICENSE](./LICENSE) and [ATTRIBUTION.md](./ATTRIBUTION.md) for copyright notices.
 
 State lives in files (`docs/scope/`, `docs/specs/`, `AGENTS.md`, tests), not in a chat session.
 
@@ -73,6 +72,4 @@ require explicit human approval. See `docs/permissions.md`.
 ## License
 
 MIT. Copyright (c) 2026 Naga Codex / Maurice Holda.
-Adapted portions retain Copyright (c) 2026 JavaScript Mastery (MIT).
-
-Source commit used for adaptation: `43b69e44c9ca905fe3a3418ccdf4102255e20d40` (cloned 2026-09-25).
+Copyright notices for upstream MIT portions are recorded in LICENSE and ATTRIBUTION.md.

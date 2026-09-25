@@ -20,6 +20,5 @@ Markdown Agent Skills for the Naga Codex Engineering Workflow. Not an applicatio
 ## Rules
 
 - Do not invent a public GitHub URL if unpublished; keep placeholders honest.
-- Do not copy JSMastery logos, marketing, course, or transcript content.
-- Prefer small, reviewable edits to skill text.
+- - Prefer small, reviewable edits to skill text.
 - Never commit `.env`, keys, or production secrets.
