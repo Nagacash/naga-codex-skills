@@ -1,0 +1,32 @@
+{
+  "name": "@nagacodex/skills",
+  "version": "0.1.0",
+  "description": "Naga Codex Engineering Workflow: Agent Skills that take a change from idea to verified, documented code. Adapted from the JSMastery Engineering Workflow (MIT).",
+  "keywords": [
+    "claude-code",
+    "cursor",
+    "openai-codex",
+    "opencode",
+    "ai-coding",
+    "skills",
+    "agent-skills",
+    "naga-codex"
+  ],
+  "homepage": "https://www.nagacodex.cloud/skills",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nagacash/naga-codex-skills.git"
+  },
+  "license": "MIT",
+  "author": "Naga Codex / Maurice Holda",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "check": "node scripts/check-portability.mjs",
+    "test": "npm run check && node scripts/validate-evals.mjs",
+    "tokens": "node scripts/analyze-token-usage.mjs",
+    "validate:meta": "node scripts/validate-evals.mjs"
+  }
+}
